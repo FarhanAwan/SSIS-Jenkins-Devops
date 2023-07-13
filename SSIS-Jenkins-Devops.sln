@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS-Jenkins-Devops", "SSIS-Jenkins-Devops\SSIS-Jenkins-Devops.dtproj", "{222F266A-66C5-46AF-9130-84572B5D7C3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{222F266A-66C5-46AF-9130-84572B5D7C3F}.Development|Default.ActiveCfg = Development
+		{222F266A-66C5-46AF-9130-84572B5D7C3F}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {003750A9-467A-4EED-95BC-000417CC82A0}
+	EndGlobalSection
+EndGlobal
