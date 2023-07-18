@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{E1613D06-56F2-42D2-B71A-6D94757FBC91}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{D90F6D3C-00D5-4F80-947E-2F039768D0B5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -256,7 +256,13 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [Name]
+      ,[Age]
+      ,[Salary]
+      ,[Company]
+      ,[Status]
+      ,[Emp_Type]
+  FROM [SSIS_TUTORIAL].[dbo].[Employee]</property>
                 <property
                   dataType="System.String"
                   description="The variable that contains the SQL command to be executed."
